@@ -7,39 +7,42 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header><h1>AI Poem Generator</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://www.linkedin.com/in/krisztina-molnar/" target="_blank"
-        >Krisztina Molnar</a
-      >. It's open sourced
-      <a
-        href="https://github.com/krisztinamolnar/ai-poem-generator"
-        target="_blank"
-        >on GitHub</a
-      >
-      and hosted
-      <a href="https://the-poem-generator.netlify.app/" target="_blank"
-        >on Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header><h1>Poem Generator</h1></header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://www.linkedin.com/in/krisztina-molnar/" target="_blank"
+          >Krisztina Molnar</a
+        >. It's open sourced
+        <a
+          href="https://github.com/krisztinamolnar/ai-poem-generator"
+          target="_blank"
+          >on GitHub</a
+        >
+        and hosted
+        <a href="https://the-poem-generator.netlify.app/" target="_blank"
+          >on Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
